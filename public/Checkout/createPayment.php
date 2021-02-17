@@ -34,7 +34,9 @@ $payment->addItems()->withParameters(
     '0001',
     'Notebook prata',
     2,
-    130.00
+    130.00,
+    10.00,       // Peso
+    14.50        // Custo de entrega
 );
 
 $payment->addItems()->withParameters(
